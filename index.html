@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Document</title>
+</head>
+<body>
+	<section class="calc">
+		<p>BIENVENIDO A LA SUPER CALCULADORA</p>
+		<input class="input" type="number" size="3" id="numberInput1" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+		<input class="input" type="number" size="3" id="numberInput2" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+		<button class="button" onclick="add()"> + </button>
+		<button class="button" onclick="substract()"> - </button>
+		<button class="button" onclick="multiply()"> * </button>
+		<button class="button" onclick="division()"> / </button>
+	</section>
+	<section class="result">
+		
+	</section>
+</body>
+</html>
